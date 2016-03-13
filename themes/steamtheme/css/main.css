@@ -1,3 +1,8 @@
-html {
-	background: yellow;
+body {
+	background: #3498db;
+}
+
+.header {
+    background: #ecf0f1;
+    height: 50px;
 }
