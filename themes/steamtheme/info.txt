@@ -1,0 +1,47 @@
+
+name = temos pavadinimas
+description = temos trumpas aprasymas
+package = temos kategorija
+version = temos versija
+core = 7.x
+
+; cia komentaro zenklas info failams
+; cia nusirodai kokius tavo css failus turi naudoti sita tema
+; perziuros tipas - gali buti failas tarkim tik web, arba tik spausdinimui, tai tuos css naudos tik kai spausdinsi puslapi i printeri arba tarkim tik per telefona ziuresi.
+; siaip visada palik all ir bus ramu, nes tada tas css galios visur.
+; stylesheets[perziuros_tipas][] = aplanko pavadinimas/failo pavadinimas.css
+
+stylesheets[all][] = css/main.css
+
+; cia yra tavo temos regionai, tarkim headeris, pagrindinis turinys, footeris, ju gali labai daug prisidaryt, kiek nori, ir jie visi bus atvaizduojami.
+; ir jie apsiraso jei neklystu html.tpl.php faile. arba page.tpl.php faile.
+; regions[regiono_pavadinimas] = Rodomas drupale regiono pavadinimas. tam regiono_pavadinimas negali but tarpu. jie turi but pakeisti _ sitais zenklais
+regions[header] = Header
+regions[help] = Help
+regions[page_top] = Page top
+regions[page_bottom] = Page bottom
+regions[highlighted] = Highlighted
+
+regions[featured] = Featured
+regions[content] = Content
+regions[sidebar_first] = Sidebar first
+regions[sidebar_second] = Sidebar second
+
+regions[triptych_first] = Triptych first
+regions[triptych_middle] = Triptych middle
+regions[triptych_last] = Triptych last
+
+regions[footer_firstcolumn] = Footer first column
+regions[footer_secondcolumn] = Footer second column
+regions[footer_thirdcolumn] = Footer third column
+regions[footer_fourthcolumn] = Footer fourth column
+regions[footer] = Footer
+
+settings[shortcut_module_link] = 0
+
+
+; Information added by Drupal.org packaging script on 2016-02-24
+version = "7.43"
+project = "drupal"
+datestamp = "1456343506"
+

@@ -1,0 +1,6 @@
+name = Steam Profile
+description = Steam profilio idiegimas
+core = 7.x
+
+dependencies[] = block
+dependencies[] = dblog
